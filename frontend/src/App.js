@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route exact path="/home" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path='/login' element={<Login/>}/>
           <Route path='/signup' element={<Signup onSuccess={navigateToHomePage} />}/>
           <Route path='/books' element={<Books/>}/>
