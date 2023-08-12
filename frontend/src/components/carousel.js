@@ -12,7 +12,7 @@ function Carousel() {
             </form>
           </div>
           <div className="carousel-item active">
-            <img className="d-block w-100" src="https://source.unsplash.com/random/900x700/?books" alt="First slide" />
+            <img className="d-block w-100" src="https://source.unsplash.com/random/900x700/?pizza" alt="First slide" />
           </div>
           <div className="carousel-item">
             <img className="d-block w-100" src="https://source.unsplash.com/random/900x700/?library" alt="Second slide" />
