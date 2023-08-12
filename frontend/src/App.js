@@ -12,7 +12,7 @@ import Dashboard from './pages/UserAccount'
 function App() {
   const navigateToHomePage = () => {
     // Your navigation logic here, it can be as simple as changing the window location
-    window.location.href = '/home'; // Replace '/home' with the actual path to your home page
+    window.location.href = '/'; // Replace '/home' with the actual path to your home page
   };
   return (
     <div className="App">
